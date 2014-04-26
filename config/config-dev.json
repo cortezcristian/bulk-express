@@ -1,0 +1,22 @@
+{
+    "app": {
+        "domain" : "127.0.0.1",
+        "port": 3000
+    },
+	"auth": {
+		"facebook": {
+			"clientid" : "XXXXX",
+			"clientsecret" : "XXXX",
+			"callback" : "http://localhost:3000/auth/facebook/callback"
+		}
+	},
+    "db": {
+        "domain" : "localhost",
+        "name" : "bulk_demo",
+        "user" : "",
+        "pass" : ""
+    },
+    "session" : {
+        "secret" : "shhhhhhh"
+    }
+}

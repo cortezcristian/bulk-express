@@ -1,0 +1,21 @@
+{
+  "name": "bulk-express",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "subdomain": "bulk-express",
+  "dependencies": {
+    "express": "3.2.0",
+    "mongoose": "3.6.7",
+    "mongoose-fixtures": "0.0.1",
+    "connect": "2.7.10",
+    "cookie": "0.1.0",
+    "passport": "0.1.17",
+    "passport-local": "0.1.6",
+    "passport-facebook": "0.1.5",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
