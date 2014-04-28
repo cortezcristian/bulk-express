@@ -5,9 +5,9 @@
     },
 	"auth": {
 		"facebook": {
-			"clientid" : "651851831575887",
-			"clientsecret" : "a96844f4f5a42c6541728f02a19cd606",
-			"callback" : "http://bulk-express.jit.su/auth/facebook/callback"
+			"clientid" : "XXXXX",
+			"clientsecret" : "XXXX",
+			"callback" : "http://localhost:3000/auth/facebook/callback"
 		}
 	},
     "db": {

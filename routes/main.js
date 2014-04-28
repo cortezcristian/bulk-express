@@ -11,3 +11,10 @@ app.get('/responsive', function(req, res){
     res.render('responsive', { title: 'Bulk Express', section: 'Welcome' });
 });
 
+app.get('/group-wall', function(req, res){
+    res.render('group-wall', { title: 'Bulk Express', section: 'Welcome' });
+});
+
+app.get('/offers', function(req, res){
+    res.render('offers', { title: 'Bulk Express', section: 'Welcome' });
+});
